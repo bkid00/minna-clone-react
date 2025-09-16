@@ -1,10 +1,10 @@
-import * as React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, ShoppingBag, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">

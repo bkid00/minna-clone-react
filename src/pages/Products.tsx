@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
@@ -13,7 +13,7 @@ import product7 from "@/assets/product-7.jpg";
 import product8 from "@/assets/product-8.jpg";
 
 const Products = () => {
-  const [filter, setFilter] = React.useState("all");
+  const [filter, setFilter] = useState("all");
 
   const allProducts = [
     {
