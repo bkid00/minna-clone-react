@@ -5,7 +5,6 @@ import ProductsSection from "@/components/ProductsSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
-import ImageSlider from "@/components/ImageSlider";
 
 const Index = () => {
   return (
@@ -18,7 +17,6 @@ const Index = () => {
         <FeaturesSection />
         <NewsletterSection />
       </main>
-      <ImageSlider />
       <Footer />
     </div>
   );
