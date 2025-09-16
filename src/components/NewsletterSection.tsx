@@ -1,10 +1,10 @@
-import { useState } from "react";
+import * as React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
 
 const NewsletterSection = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = React.useState("");
   const { toast } = useToast();
 
   const handleSubmit = (e: React.FormEvent) => {
